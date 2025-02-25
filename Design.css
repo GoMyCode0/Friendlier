@@ -1,0 +1,298 @@
+/*BODY*/
+/*BODY*/
+/*BODY*/
+
+body {
+  background-image: url(BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: static;
+  font-family: Poiret One;
+}
+
+/*NAVBAR*/
+/*NAVBAR*/
+/*NAVBAR*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+#Logo {
+  height: 100px;
+  width: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: blanchedalmond;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.048);
+}
+
+/*Sidebar*/
+/*Sidebar*/
+/*Sidebar*/
+
+.profiles {
+  background-color: rgba(255, 255, 255, 0.595);
+  border-radius: 13px;
+  width: 120px;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  top: 120px;
+  left: 0;
+  position: fixed;
+  align-content: flex-start;
+  justify-content: space-around;
+  gap: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.048);
+}
+
+.profiles img {
+  height: 100px;
+  width: 100px;
+  border-radius: 13px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.116);
+}
+
+.profiles img:hover {
+  width: 105px;
+  height: 105px;
+}
+
+/*AD*/
+/*AD*/
+/*AD*/
+
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  right: 20px;
+}
+
+.ad2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 500px;
+  right: 20px;
+}
+
+/*POST CONTAINER*/
+/*POST CONTAINER*/
+/*POST CONTAINER*/
+
+.postscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 950px;
+  height: fit-content;
+  gap: 20px;
+  position: relative;
+  top: 50px;
+  right: 100px;
+}
+
+/*POST1*/
+/*POST1*/
+/*POST1*/
+
+.post1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: static;
+  background-color: rgba(255, 255, 255, 0.362);
+  width: 850px;
+  height: 575px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+}
+
+#profilepic {
+  border-radius: 20%;
+  width: 112px;
+  height: 112px;
+  padding: 1%;
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: static;
+  padding-top: 10px;
+  line-height: 0px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.username {
+  font-size: 30px;
+}
+.status {
+  font-size: 15px;
+}
+.location {
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  height: 400px;
+  margin-left: 22px;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(203, 148, 148, 0.362);
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+
+}
+
+h2 {
+  font-size: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.shareables {
+  width: 300px;
+  height: 400px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+
+}
+
+#shareables {
+  width: 100%;
+  height: 100%;
+}
+
+/*POST2*/
+/*POST2*/
+/*POST2*/
+
+.post2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: static;
+  background-color: rgba(255, 255, 255, 0.362);
+  width: 850px;
+  height: 575px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+}
+
+#h2post2 {
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*POST3*/
+/*POST3*/
+/*POST3*/
+
+.post3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: static;
+  background-color: rgba(255, 255, 255, 0.362);
+  width: 850px;
+  height: 575px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+}
+
+#h2post3 {
+  font-size: 41px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.shareablespost3 {
+  width: fit-content;
+  height: 400px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+}
+
+/*POST4*/
+/*POST4*/
+/*POST4*/
+
+.post4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: static;
+  background-color: rgba(255, 255, 255, 0.362);
+  width: 850px;
+  height: 575px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+}
+
+/*CHAT*/
+/*CHAT*/
+/*CHAT*/
+
+.chat {
+  width: 100px;
+  height: 100px;
+  background-image: url(ICONreceipt.png);
+  background-size: contain;
+  position: sticky;
+  bottom: 0;
+  left: 1900px;
+}

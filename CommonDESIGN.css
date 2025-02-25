@@ -1,0 +1,48 @@
+/*BODY*/
+/*BODY*/
+/*BODY*/
+
+body {
+    background-image: url(BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    font-family: Poiret One;
+  }
+  
+  /*NAVBAR*/
+  /*NAVBAR*/
+  /*NAVBAR*/
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #Logo {
+    height: 100px;
+    width: 350px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: blanchedalmond;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.048);
+  }
